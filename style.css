@@ -1,0 +1,14 @@
+
+:root{--color-primary:#26A6E3;--color-bg:#121212;--color-card:#1E1E1E;--color-text:#E6E6E6}
+body{background:var(--color-bg);color:var(--color-text);font-family:Inter}
+.navbar{background:#111;padding:20px}
+.hero{min-height:100vh;display:flex;align-items:center}
+.hero-img{max-width:100%;filter:drop-shadow(0 0 40px rgba(38,166,227,.3))}
+.btn-primary-custom{background:#26A6E3;color:#fff;padding:14px 28px}
+.services,.why-us,.process,.contact{padding:120px 0}
+.service-card,.process-card,.stat-card{background:var(--color-card);padding:32px;border-radius:20px;height:100%}
+.stats-container{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.stat-card{text-align:center}
+.stat-icon{font-size:34px;margin-bottom:12px}
+.feature-item{padding:14px 0;border-bottom:1px solid #2a2a2a}
+@media(max-width:768px){.stats-container{grid-template-columns:1fr}}
